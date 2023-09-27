@@ -1,0 +1,305 @@
+/* Algemeen */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    padding-bottom: 36px 0;
+}
+
+h2{
+    font-size: 40px;
+    padding: 36px 0;
+}
+
+h3{
+    font-size: 24px;
+    padding: 36px 0;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    color: #1D1D1F;
+}
+
+
+/* Header */
+header img{
+    width: 100vw;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+/* Navigatie */
+
+nav{
+    background-color: #0464FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li a{
+    margin-right: 50px;
+    padding: 8px 0;
+    color: #F2F2F2;
+    position: relative;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FCD95C;
+    text-decoration: underline;
+}
+
+nav img{
+    width: 42px;
+}
+/* Home */
+article{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 52px 8vw;
+    text-align: center;
+}
+  
+.container-snelle-navigatie{
+    background-color: #ffff;
+}
+
+.snelle-navigatie-item{
+    background-color: #F2F2F2;
+    padding: 36px 80px 36px 80px;
+    display: inline-block;
+    margin: 36px;
+    border-radius: 16px;
+    color: #0464FA;
+    
+}
+.navigatie-content{
+    width: 150px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+
+
+.navigatie-content:link{
+    text-decoration: none;
+    color: #0464FA;
+}
+
+.navigatie-content:visited{
+    text-decoration: none;
+    color: #0464FA;
+}
+
+/* Home: laatste nieuws */
+
+.card{
+    width: 388px;
+    border-radius: 16px;
+    display: inline-block;
+    background-color: white;
+    margin: 24px;
+    
+}
+
+.card-content{
+    text-align: left;
+    padding: 16px 24px 16px 24px;
+    text-decoration: none;
+}
+
+.card-image{ 
+    object-fit: cover;   
+    width: 100%;
+    height: 170px;
+    border-radius:16px 16px 0 0;
+}
+
+.card-title{
+    height: 44px;
+    display: block;
+    width: 340px;
+    text-align: left;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+
+.card-tag{
+    font-size: 12px;
+    color: #6E6E73;
+    padding:0 0 8px 0;
+    text-decoration: none;
+
+}
+
+.card-date{
+    color: #6E6E73;
+    font-size: 14px;
+    padding: 8px 0 0 0;
+    text-decoration: none;
+}
+
+.button-container{
+    margin: 24px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: white;
+    color: #0464FA;
+    border: solid;
+    border-radius: 30px;
+    padding: 12px 24px 12px  24px;
+}
+
+
+/* Over ons */
+.about-us-image{
+    padding: 36px 0;
+    width: 100%;
+ }
+ 
+.about-us-container{
+     background-color: #fff;
+}
+.aandachtspunten{
+    text-align: center;
+    padding: 0 125px ;
+    color: #1D1D1F;
+}
+
+
+
+/* Nieuws detail pagina */
+.article-header{
+    margin: 36px 400px 0 400px;
+    padding: 0 150px 0 150px;
+}
+
+.article-thumdail{
+    width: 55vw;
+    border-radius: 12px;
+    min-width: 320px;
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.article-title{
+    padding-top: 12px;
+}
+
+.article-tekst{
+    margin: 36px 400px 0 400px;
+    padding: 0 150px 0 150px;
+}
+
+.article-tekst-font{
+    margin-bottom: 1.4em;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 250;
+    letter-spacing: .012em;
+
+}
+
+.article-inside-article{
+    width: 55vw;
+    border-radius: 12px;
+    min-width: 320px;
+    display: block;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+/* Contact */
+
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 16px 0;
+    padding: 16px;
+    font-size: 16px;
+    border: solid #d9d9d9;
+    border-radius: 16px;
+    width: 50%;
+}
+
+
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    border-radius: 16px;
+    padding: 12px 24px 12px  24px;
+    background-color: #0464FA;
+    color: #fff;
+    border: solid;
+    width: 16em;
+    margin: 2em auto 0;
+
+}
+
+form button:hover{
+    background-color: #0071e3;
+   
+}
+
+/* Footer */
+
+footer {
+    padding: 1vw 22vw;
+    background-color: #0464FA;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+ence{
+    pointer-events: none;
+}
